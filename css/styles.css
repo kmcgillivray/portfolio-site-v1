@@ -1,0 +1,393 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		line-height: 24px;
+		color: #3D3D3D;
+		
+	}
+	
+	#bio {
+		margin: 0 0 10px 0;
+		font-family: 'Antic Slab', serif;
+		font-size: 14px;
+		color: #336666;
+	}
+	
+	
+	.title {
+		font-family: 'Antic Slab', serif;
+		font-size: 27px;
+		color: #336666;
+		line-height: 70px;
+	}
+	
+	.desc {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 375px;
+		font-family: 'Antic Slab', serif;
+		font-size: 27px;
+		color: #CCCCCC;
+		line-height: 70px;
+		padding-bottom: 5px;
+	}
+	
+	
+	.paratitle {
+		font-family: 'Antic Slab', serif;
+		font-size: 27px;
+		color: #336666;
+		line-height: 40px;
+	}
+	
+	.paradesc {
+		display: block;
+		font-family: 'Antic Slab', serif;
+		font-size: 20px;
+		color: #CCCCCC;
+		line-height: 30px;
+		padding-bottom: 15px;
+	}
+
+	
+	#worknavsmall {
+		display: none;
+	}
+	
+	.titlesmall {
+		display: none;
+	}
+	
+	.left {
+		float: left;
+		opacity: 0.5;
+	}
+	
+	.left:hover {
+		opacity: 1;
+	}
+	
+	.right {
+		float: right;
+		opacity: 0.25;
+	}
+	
+	.right:hover {
+		opacity: 1;
+	}
+	
+	#name {
+		color: black;
+	}
+	
+	.workname {
+		display: block;
+		color: gray;
+		font-family: 'Gudea', sans-serif;
+		padding-bottom: 20px;
+		padding-top: 0px;
+		
+	}
+	
+	.footer {
+		background: #cad8cc url(../img/footer.png) repeat-x top;
+		height: 120px;
+		padding-top: 75px;
+		padding-bottom: 200px:
+	}
+	
+	#footernav {
+		display: none;
+	}
+	
+	#copyright {
+		font-family: 'Antic Slab', serif;
+		opacity: .8;
+		font-size: 14px;
+		color: black;
+		padding-top: 10px;
+	}
+	
+	#copylink {
+		text-decoration: none;
+		color: black;
+	}
+	
+	.social {
+		float: right;
+		width: auto;
+		opacity: 0.5;
+		padding-right: 5px;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+	
+	.social:hover {
+		opacity: 1;
+	}
+	
+	.header {
+		background: url(../img/header.gif) repeat-x center;
+		height: 123px;
+	}
+	
+	#small {
+		display: none;
+		}
+		
+	.body {
+		background: url(../img/bodybg.png) repeat;
+		height: auto;
+		}
+	
+	#logo { 
+		display: block;
+		width: 350px;
+		height: 149px;
+		background: transparent url(../img/logo2.png) no-repeat; 
+	}
+
+	#logo:hover {
+		display: block;
+		width: 350px; 
+		height: 149px;
+		background: transparent url(../img/logohover2.png) no-repeat; 
+	}
+
+	a.grid:hover {
+		opacity: 0.8;
+	}
+	
+	#nav a{
+		font-family: 'Antic Slab', serif;
+		color: #336666;
+		letter-spacing: 1px;
+		font-size: 17px;
+		text-decoration: none;
+		display: block;
+		float:right;
+		margin-left: 42px;
+		padding-left:3px;
+		padding-right:2px;
+		padding-top: 33px;
+		padding-bottom:25px;
+	}
+	
+	.menulink:link {
+		color: #336666;
+		letter-spacing: 1px;
+		font-size: 17px;
+		text-decoration: none;
+		text-shadow: 0px 2px 0px #e2e2e2;
+	}
+		
+	.menulink:visited {
+		color: #336666;
+		letter-spacing: 1px;
+		font-size: 17px;
+		text-decoration: none;
+	}
+	
+	#nav .menulink:hover {
+		color: #336666;
+		letter-spacing: 1px;
+		font-size: 17px;
+		text-decoration: none;
+		line-height: 28px;
+		text-shadow: none;
+		}
+		
+	#aboutbio {
+		font-family: 'Antic Slab', serif;
+		font-size: 22.5px;
+		line-height: 39px;
+		color: black;
+	}
+	
+	#aboutname {
+		color: #336666;
+	}
+	
+	#aboutlink:link {
+		color: #336666;
+		text-decoration: none;
+		text-shadow: 0px 1px 0px #e2e2e2;
+	}
+	
+	#aboutlink:visited {
+		color: #336666;
+		text-decoration: none;
+		text-shadow: 0px 1px 0px #e2e2e2;
+	}
+	
+	#aboutlink:hover {
+		opacity: 0.8;
+		text-decoration: none;
+		text-shadow: 0px 1px 0px #e2e2e2;
+	}
+
+	#credentials {
+		font-family: 'Antic Slab', serif;
+		font-size: 13px;
+		line-height: 21px;
+		color: black;
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+	
+	#credentialstitle {
+		font-family: 'Antic Slab', serif;
+		font-size: 20px;
+		line-height: 26px;
+		color: #336666;
+	}
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	.work {
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%;
+	}
+
+	#regular {
+		display: none;
+	
+	}
+	
+	.header {
+		background: none;
+		}
+		
+	.body {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		background: none;
+		padding-bottom: 15px;
+		}
+
+	#small {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		height: 70px;
+	}
+	
+	#nav a {
+		display: none;
+		float: right;
+		width: 30px;
+		font-size: 14px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 0px
+		margin-right: 0px
+	}
+
+	#nav .menulink:hover {
+		font-size: 14px;
+	}
+
+	#worknav { /* title, previous, next bar */
+		display: none;
+	}
+	
+	#worknavsmall {
+		display: block;
+		padding-bottom: 20px;
+		padding-top: 0px;
+	}
+	
+	.titlesmall {
+		display: block;
+		font-family: 'Antic Slab', serif;
+		font-size: 25px;
+		color: #336666;
+		line-height: 30px;
+		margin-left: 40px;
+		margin-right: 20px;
+		width: 95%;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+		
+	.left {
+		opacity: 0.5;
+	}
+	
+	.right {
+		opacity: 0.5;
+	}
+	
+	.footer {
+		background: #cad8cc;
+		height: 350px;
+		padding-top: 23px;
+		padding-bottom: 100px:
+	}
+	
+	#footernav {
+		display: block;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	
+	#footernav a{
+		font-family: 'Antic Slab', serif;
+		color: black;
+		letter-spacing: 1px;
+		font-size: 17px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.social {
+		display: none;
+	}
+	
+	#aboutbio {
+		font-family: 'Antic Slab', serif;
+		font-size: 18px;
+		line-height: 21px;
+		color: black;
+	}
+
+	#credentials {
+		display: none;
+	}
+	
+	#aboutbio {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
